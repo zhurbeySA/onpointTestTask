@@ -1,0 +1,6 @@
+@import 'utils/font-face';
+
+@include font-face('LatoRegular', '../../assets/fonts/Lato/LatoRegular/LatoRegular');
+@include font-face('LatoMedium', '../../assets/fonts/Lato/LatoMedium/LatoMedium');
+@include font-face('GothamPro', '../../assets/fonts/GothamPro/GothamProRegular/GothamPro');
+@include font-face('GothamProLight', '../../assets/fonts/GothamPro/GothamProLight/GothamProLight');
