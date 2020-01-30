@@ -1,14 +1,30 @@
-// @import "utils/libs";
-// @import "utils/vars";
-// @import "utils/mixins";
 @import "fonts";
 @import "./variables";
+
+// Blocks and elements from the first slide
+@import "./../../common.blocks/firstSlide/firstSlide";
+@import "./../../common.blocks/mainQuestion";
+@import "./../../common.blocks/goalMarker/goalMarker";
+@import "./../../common.blocks/goalMarker/_position/goalMarker_position_top";
+@import "./../../common.blocks/goalMarker/_position/goalMarker_position_left";
+@import "./../../common.blocks/goalMarker/_position/goalMarker_position_right";
+@import "./../../common.blocks/goalMarker/_position/goalMarker_position_bottom";
+@import "./../../common.blocks/circle.scss";
+@import "./../../common.blocks/goalMarker/goalMarker__firstCircle";
+@import "./../../common.blocks/goalMarker/goalMarker__secondCircle";
+@import "./../../common.blocks/goalMarker/goalMarker__thirdCircle";
 
 *, *:before, *:after {
 	box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: $fontSize;
-  font-family: GothamPro;
 }
 
+body {
+  font-family: "GothamPro", sans-serif;
+  color: #0d319c;
+}
+
+main {
+  width: 1024px;
+}

@@ -1,0 +1,19 @@
+.goalMarker_position_right {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 516px;
+  right: 186px;
+}
+
+.goalMarker_position_right .circle {
+  @include pulsation(17px, 3);
+
+  animation: pulsation3 2s linear infinite;
+}
+
+.goalMarker_position_right::before {
+  content: "СС риски";
+  top: -34px;
+  left: -34px;
+} 

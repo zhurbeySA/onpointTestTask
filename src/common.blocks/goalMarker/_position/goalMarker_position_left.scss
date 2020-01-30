@@ -1,0 +1,19 @@
+.goalMarker_position_left {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 426px;
+  left: 273px;
+}
+
+.goalMarker_position_left .circle {
+  @include pulsation(28px, 2);
+
+  animation: pulsation2 2s linear infinite;
+}
+
+.goalMarker_position_left::before {
+  content: "Гипогликемия";
+  top: -34px;
+  left: -52px;
+} 

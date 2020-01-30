@@ -1,0 +1,19 @@
+.goalMarker_position_bottom {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 538px;
+  left: 480px;
+}
+
+.goalMarker_position_bottom .circle {
+  @include pulsation(14px, 4);
+
+  animation: pulsation4 2s linear infinite;
+}
+
+.goalMarker_position_bottom::before {
+  content: "Осложнения СД";
+  top: -36px;
+  left: -112px;
+} 

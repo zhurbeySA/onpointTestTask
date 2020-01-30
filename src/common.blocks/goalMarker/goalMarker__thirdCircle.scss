@@ -1,0 +1,4 @@
+// Use cascade cause the styles in goalMarker's styles this property have higher priority
+.goalMarker .goalMarker__thirdCircle {
+  animation-delay: 0.8s;
+}

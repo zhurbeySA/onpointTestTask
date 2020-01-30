@@ -1,0 +1,20 @@
+.goalMarker_position_top {
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  top: 261px;
+  left: 561px;
+  line-height: 54px;
+}
+
+.goalMarker_position_top .circle{
+  @include pulsation(54px, 1);
+
+  animation: pulsation1 2s linear infinite;
+}
+
+.goalMarker_position_top::after {
+  content: "Цель по HbA1c";
+  top: -4px;
+  left: 61px;
+} 
