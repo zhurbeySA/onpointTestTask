@@ -14,6 +14,13 @@
 @import "./../../common.blocks/goalMarker/goalMarker__secondCircle";
 @import "./../../common.blocks/goalMarker/goalMarker__thirdCircle";
 
+// Flipdown block
+@import "./../../common.blocks/flipDown";
+
+// StateBar block
+@import "./../../common.blocks/stateBar/stateBar.scss";
+@import "./../../common.blocks/stateBar/stateBar__slideNumber.scss";
+
 *, *:before, *:after {
 	box-sizing: border-box;
   margin: 0;

@@ -1,0 +1,22 @@
+.flipDown {
+  width: 44px;
+  height: 22px;
+  position: fixed;
+  bottom: 18px;
+  left: calc(50% - 22px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flipDown::before {
+  content: "Листайте вниз";
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 15px;
+  color: #fff;
+  left: -30px;
+  top: -28px;
+}
