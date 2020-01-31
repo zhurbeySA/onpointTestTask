@@ -1,0 +1,16 @@
+.gradientBox {
+  width: 260px;
+  height: 220px;
+  background-image: radial-gradient(circle at 30% top, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12), transparent 75%);
+  border-radius: 42px 42px 0 0;
+  // border: 2px solid #35218f;
+
+  &::before {
+    content: "Инсулинорезистентность";
+    font-family: "LatoMedium", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    left: 41px;
+    top: 21px;
+  }
+}

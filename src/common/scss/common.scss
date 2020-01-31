@@ -18,6 +18,18 @@
 @import "./../../common.blocks/secondSlide/secondSlide";
 @import "./../../common.blocks/ice";
 
+// Block and elements from the third slide
+@import "./../../common.blocks/thirdSlide/thirdSlide";
+@import "./../../common.blocks/thirdSlideQuestion";
+@import "./../../common.blocks/arrows";
+@import "./../../common.blocks/box/box.scss";
+@import "./../../common.blocks/box/box__element.scss";
+@import "./../../common.blocks/box/box__organ.scss";
+@import "./../../common.blocks/box/box__betta.scss";
+@import "./../../common.blocks/box/box__numberPoint.scss";
+@import "./../../common.blocks/gradientBox.scss";
+@import "./../../common.blocks/unenumeratedPoint.scss";
+
 *, *:before, *:after {
 	box-sizing: border-box;
   margin: 0;

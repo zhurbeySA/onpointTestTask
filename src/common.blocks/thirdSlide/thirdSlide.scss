@@ -1,0 +1,75 @@
+.thirdSlide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 1024px;
+  height: 768px;
+  color: #fff;
+  font-family: "LatoMedium", sans-serif;
+}
+
+.ice_left {
+  left: 0;
+  top: 108px;
+}
+
+.ice_right {
+  right: 0;
+  top: 212px;
+}
+
+.ice_bottom {
+  left: 157px;
+  bottom: 0;
+}
+
+.thirdSlide .arrows {
+  position: absolute;
+  left: 300px;
+  top: 225px;
+}
+
+.thirdSlideQuestion {
+  position: absolute;
+  left: 85px;
+  top: 113px;
+}
+
+.box_position_left {
+  top: 234px;
+  left: 272px;
+}
+
+.box_position_middle {
+  top: 181px;
+  left: 483px;
+}
+
+.box_position_right {
+  top: 233px;
+  right: 249px;
+  z-index: 1;
+}
+
+.gradientBox {
+  position: absolute;
+  top: 330px;
+  right: 62px;
+}
+
+.unenumeratedPoint_position_left {
+  left: 270px;
+  top: 412px;
+}
+
+.unenumeratedPoint_position_bottom {
+  left: 430px;
+  top: 489px;
+}
+
+.unenumeratedPoint_position_right {
+  left: 540px;
+  top: 430px;
+}
+

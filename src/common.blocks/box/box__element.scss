@@ -1,0 +1,20 @@
+.box__element {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.25);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &::before {
+    font-family: "LatoSemiBold", sans-serif;
+    font-size: 36px;
+  }
+  
+  &::after {
+    font-family: "LatoMedium", sans-serif;
+    font-size: 20px;
+  }
+}
