@@ -2,7 +2,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  // position relative to force elements on the slide not move from their normal positions
   position: relative;
   width: 1024px;
   height: 768px;
@@ -12,4 +11,23 @@
   position: absolute;
   left: 72px;
   top: 142px;
+}
+
+.goalMarker_position_top {
+  top: 261px;
+  left: 561px;
+}
+
+.goalMarker_position_left {
+  top: 426px;
+  left: 273px;
+}
+
+.goalMarker_position_right {
+  top: 516px;
+  right: 186px;
+}
+.goalMarker_position_bottom {
+  top: 538px;
+  left: 480px;
 }

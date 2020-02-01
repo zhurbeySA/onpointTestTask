@@ -40,6 +40,9 @@
 @import "./../../common.blocks/stateBar/stateBar.scss";
 @import "./../../common.blocks/stateBar/stateBar__slideNumber.scss";
 
+// ViewWindow block
+@import "./../../common.blocks/viewWindow.scss";
+
 *, *:before, *:after {
 	box-sizing: border-box;
   margin: 0;
@@ -49,7 +52,7 @@
 body {
   font-family: "GothamPro", sans-serif;
   color: #0d319c;
-  // background-color: #24259a;
+  background-color: #4a59b8;
 }
 
 main {
