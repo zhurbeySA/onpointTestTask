@@ -30,6 +30,16 @@
 @import "./../../common.blocks/gradientBox.scss";
 @import "./../../common.blocks/unenumeratedPoint.scss";
 
+// Flipdown block
+@import "./../../common.blocks/flipDown/flipDown";
+@import "./../../common.blocks/flipDown/flipDown__littleBlur";
+@import "./../../common.blocks/flipDown/flipDown__bigBlur";
+@import "./../../common.blocks/flipDown/flipDown__arrowImg";
+
+// StateBar block
+@import "./../../common.blocks/stateBar/stateBar.scss";
+@import "./../../common.blocks/stateBar/stateBar__slideNumber.scss";
+
 *, *:before, *:after {
 	box-sizing: border-box;
   margin: 0;
@@ -39,8 +49,12 @@
 body {
   font-family: "GothamPro", sans-serif;
   color: #0d319c;
+  // background-color: #24259a;
 }
 
 main {
   width: 1024px;
+  position: relative;
+  margin: 0 auto;
+  overflow-y: hidden;
 }
