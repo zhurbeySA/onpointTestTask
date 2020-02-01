@@ -1,7 +1,7 @@
 .flipDown {
   width: 44px;
   height: 22px;
-  position: fixed;
+  position: absolute;
   bottom: 18px;
   left: calc(50% - 22px);
   background-position: center;
@@ -12,7 +12,7 @@
 .flipDown::before {
   content: "Листайте вниз";
   display: inline-block;
-  position: relative;
+  position: absolute;
   white-space: nowrap;
   font-size: 15px;
   line-height: 15px;

@@ -1,0 +1,8 @@
+.flipDown__littleBlur {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  background-image: radial-gradient(circle, #f78b1f 60%, #f78b1f 66%, transparent 71%);
+  left: calc(50% - 500px);
+  top: -10px;
+}
