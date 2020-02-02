@@ -4,6 +4,8 @@
   border-radius: 50%;
   background-color: #fff;
   margin-bottom: 7px;
+  transition-property: background-color;
+  transition-duration: 1.5s;
 }
 
 .stateBar__slideNumber_active {

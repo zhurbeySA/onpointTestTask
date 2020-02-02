@@ -43,6 +43,9 @@
 // ViewWindow block
 @import "./../../common.blocks/viewWindow.scss";
 
+// SwipeAnimation block
+@import "./../../common.blocks/swipeAnimation.scss";
+
 *, *:before, *:after {
 	box-sizing: border-box;
   margin: 0;
@@ -59,5 +62,5 @@ main {
   width: 1024px;
   position: relative;
   margin: 0 auto;
-  overflow-y: hidden;
+  overflow: hidden;
 }

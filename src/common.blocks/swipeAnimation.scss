@@ -1,0 +1,59 @@
+@keyframes swipeDown {
+  0% {
+    top: 0;
+  }
+  20% {
+    top: 150px;
+  }
+  40% {
+    top: 400px;
+  }
+  60% {
+    top: 350px;
+  }
+  70% {
+    top: 260px;
+  }
+  80% {
+    top: 170px;
+  }
+  90% {
+    top: 80px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes swipeTop {
+  0% {
+    top: 0;
+  }
+  20% {
+    top: -150px;
+  }
+  40% {
+    top: -400px;
+  }
+  60% {
+    top: -350px;
+  }
+  70% {
+    top: -260px;
+  }
+  80% {
+    top: -170px;
+  }
+  90% {
+    top: -80px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.swipeAnimation {
+  position: relative;
+  width: 1024px;
+  height: 768px;
+}
