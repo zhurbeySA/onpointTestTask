@@ -1,0 +1,27 @@
+.pcSupport__button_red, .pcSupport__button_green {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+}
+
+.pcSupport__button_green {
+  background-color: #3cff00;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  color: #3cff00;
+}
+
+.pcSupport__button_red {
+  background-color: #ed3f1c;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  color: #ed3f1c;
+}

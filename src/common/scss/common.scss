@@ -46,6 +46,14 @@
 // SwipeAnimation block
 @import "./../../common.blocks/swipeAnimation.scss";
 
+// Add buttons for pc support
+@import "./../../common.blocks/pcSupport/pcSupport.scss";
+@import "./../../common.blocks/pcSupport/pcSupport__alert.scss";
+@import "./../../common.blocks/pcSupport/pcSupport__button.scss";
+
+// HideOverfilled block
+@import "./../../common.blocks/hideOverfilled.scss";
+
 *, *:before, *:after {
 	box-sizing: border-box;
   margin: 0;
@@ -56,11 +64,12 @@ body {
   font-family: "GothamPro", sans-serif;
   color: #0d319c;
   background-color: #4a59b8;
+  overflow: hidden;
 }
 
 main {
   width: 1024px;
+  height: 768px;
   position: relative;
   margin: 0 auto;
-  overflow: hidden;
 }
