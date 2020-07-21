@@ -21,4 +21,5 @@ Swipes after problem solving:
 As you can't trigger swipe events on pc(no touch events), buttons to manipulate page was added. You can acces them if give positive answer in question on the top right angle of the layout.
 
 # Result
-Result of the work: *[https://pages.zhurbeysa.xyz](https://pages.zhurbeysa.xyz)*.
+Result of the work: *[https://pages.zhurbeysa.xyz](https://pages.zhurbeysa.xyz)*.\
+Or another link: *[https://zhurbeysa.xyz/onpointProject](https://zhurbeysa.xyz/onpointProject)*.
